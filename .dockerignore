@@ -1,0 +1,36 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python environments and caches
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Tests, dev tooling and docs (not needed at runtime)
+tests
+requirements-dev.txt
+.flake8
+assets
+docs
+*.md
+
+# Editor and OS files
+.vscode
+.idea
+.DS_Store
+
+# Docker files themselves
+Dockerfile
+docker-compose*.yml
+.dockerignore
